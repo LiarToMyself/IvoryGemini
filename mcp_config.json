@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "gemini-desktop": {
+      "command": "python",
+      "args": [
+        "path/to/IvoryGemini/server.py"
+      ],
+      "env": {
+        "GEMINI_APP_NAME": "Gemini",
+        "GEMINI_DESKTOP_PATH": "",
+        "GEMINI_DEFAULT_TIMEOUT_SEC": "180",
+        "GEMINI_POLL_INTERVAL_SEC": "1.5",
+        "GEMINI_STABLE_SEC": "4.0",
+        "GEMINI_MASK_EMAILS": "1",
+        "GEMINI_EXPOSE_RAW_EMAILS": "0",
+        "GEMINI_ACCOUNT_SLOT_0": "",
+        "GEMINI_ACCOUNT_SLOT_1": "",
+        "GEMINI_MAX_RESPONSE_CHARS": "0",
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
